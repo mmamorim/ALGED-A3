@@ -2,21 +2,19 @@
 <div align="center">
   <img src="./assets/logoUC.png" width="800" height="260" />
 </div>
-<h3 align="center" style="margin-bottom: 0px;">
+<h3 style="margin-bottom: 0px;">
     professores:
 </h3>
-<div align="center">
-    <code align="center">
-        Marcelo Amorim e Marcelo Duduchi
-    </code>
+<div>
+    <code align="center">Marcelo Amorim e Marcelo Duduchi</code>
 </div>
-<p align="center" style="margin-top: 8px;">
+<p style="margin-top: 8px;">
     Descrição e documentação do projeto A3 da Unidade curricular de Algoritmos e estrutura de dados. 
     <br />
 </p>
 
-<div align="center">
-  <h2 align="center">
+<div>
+  <h2>
     <strong>FASE 1: </strong>
     Pessoas conhecem pessoas
   </h2>
@@ -27,8 +25,8 @@
     Nesta fase iremos implementar uma simulação de um sistema de filas para compra de ingressos de eventos. Para isso seu programa precisará de várias instâncias de uma estrutura de dados conhecida como <code>fila brasileira</code>. 
 </p>
 
-<div align="center">
-  <h2 align="center">
+<div>
+  <h2>
     <strong>FASE 2: </strong>
     Filas Brasileiras
   </h2>
