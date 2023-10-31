@@ -1,6 +1,6 @@
+<h1>Avaliação A3</h3>
 <div align="center">
-  <img src="./assets/logoUC.png" width="800" height="160" />
-  <h1 align="center">Avaliação A3</h3>
+  <img src="./assets/logoUC.png" width="800" height="260" />
 </div>
 <div align="center">
   <img src="./assets/queue.gif" width="280" height="160" />
