@@ -8,7 +8,8 @@
 <div>
     <code align="center">Marcelo Amorim e Marcelo Duduchi</code>
 </div>
-
+<br/>
+<br/>
 
 >Descrição e documentação do projeto A3 da Unidade curricular de Algoritmos e estrutura de dados. 
 
