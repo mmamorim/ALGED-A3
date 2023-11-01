@@ -45,7 +45,7 @@ A entrada de dados será a partir da leitura de um arquivo texto que poderá con
      [Guga] NÃO conhece [Olga]
 
 
->**Exemplos de entrada e saída (Fase 1):** [Simulações](/Simulations)
+>**Exemplos de entrada e saída (Fase 1):** ```/Pasta Simulations``` [Simulações](/Simulations)
 
 ## FASE 2: Filas Brasileiras
 <img src="./assets/queue.gif" width="280" height="160" />
@@ -85,7 +85,12 @@ A entrada de dados será a partir da leitura de um arquivo texto que poderá con
 >     #Guiche2 [ Ivo, Fabio, Manuel, Alface ]
 
 
->**Exemplos de entrada e saída (Fase 2):** [Simulações](/Simulations)
+>**Exemplos de entrada e saída (Fase 2):** ```/Pasta Simulations``` [Simulações](/Simulations)
+
+## DEMO para simular entradas / saídas
+
+>link para Demo -> [Demo](https://mmamorim.github.io/ALGED-A3/)
+
 
 ## Sobre a entrega
 
