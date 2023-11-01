@@ -1,0 +1,4 @@
+[Bia] existe!
+[Banana] NÃO existe!
+[Maria] conhece [Alface]
+[Guga] NÃO conhece [Olga]
