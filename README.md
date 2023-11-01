@@ -1,23 +1,3 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<style>
-.ffiracode {
-  font-family: 'Fira Code', monospace;
-}
-.fs-10pt { font-size: 10pt !important }
-.fs-11pt { font-size: 11pt !important }
-.fs-12pt { font-size: 12pt !important }
-.fs-13pt { font-size: 13pt !important }
-.fs-14pt { font-size: 14pt !important }
-.fs-16pt { font-size: 16pt !important }
-.fs-18pt { font-size: 18pt !important }
-.fs-20pt { font-size: 20pt !important }
-.fs-26pt { font-size: 26pt !important }
-.fs-34pt { font-size: 34pt !important }
-.fs-48pt { font-size: 48pt !important }
-</style>
-
 # Avaliação A3
 ![](./assets/logoUC.png)
 ### professores
@@ -28,15 +8,15 @@ Descrição e documentação do projeto A3 da Unidade curricular de Algoritmos e
 ## FASE 1: Pessoas conhecem pessoas
 <img src="./assets/people.gif" width="240" height="160" />
 
-Nesta fase iremos implementar uma simulação de um sistema de filas para compra de ingressos de eventos. Para isso seu programa precisará de várias instâncias de uma estrutura de dados conhecida como <span class="ffiracode">fila brasileira</span>. 
+Nesta fase iremos implementar uma simulação de um sistema de filas para compra de ingressos de eventos. Para isso seu programa precisará de várias instâncias de uma estrutura de dados conhecida como ```fila brasileira```. 
 
-<div>
-  <h2>
-    <strong>FASE 2: </strong>
-    Filas Brasileiras
-  </h2>
-  <img src="./assets/queue.gif" width="280" height="160" />
-</div>
+    <div>
+      <h2>
+        <strong>FASE 2: </strong>
+        Filas Brasileiras
+      </h2>
+      <img src="./assets/queue.gif" width="280" height="160" />
+    </div>
 
 <p style="margin-top: 8px;">
     Nesta fase iremos implementar uma simulação de um sistema de filas para compra de ingressos de eventos. Para isso seu programa precisará de várias instâncias de uma estrutura de dados conhecida como <code>fila brasileira</code>. 
