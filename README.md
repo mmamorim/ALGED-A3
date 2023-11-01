@@ -1,28 +1,16 @@
-<h1>Avaliação A3</h3>
-<div align="center">
-  <img src="./assets/logoUC.png" width="800" height="260" />
-</div>
-<h3 style="margin-bottom: 0px;">
-    professores:
-</h3>
-<div>
-    <code align="center">Marcelo Amorim e Marcelo Duduchi</code>
-</div>
-<br/>
+<link rel="stylesheet" type="text/css" href="./assets/fonts.css">
 
->Descrição e documentação do projeto A3 da Unidade curricular de Algoritmos e estrutura de dados. 
+# Avaliação A3
+![](./assets/logoUC.png)
+### professores
+>Marcelo Amorim e Marcelo Duduchi
 
-<div>
-  <h2>
-    <strong>FASE 1: </strong>
-    Pessoas conhecem pessoas
-  </h2>
-  <img src="./assets/people.gif" width="240" height="160" />
-</div>
+Descrição e documentação do projeto A3 da Unidade curricular de Algoritmos e estrutura de dados. 
 
-<p style="margin-top: 8px;">
-    Nesta fase iremos implementar uma simulação de um sistema de filas para compra de ingressos de eventos. Para isso seu programa precisará de várias instâncias de uma estrutura de dados conhecida como <code>fila brasileira</code>. 
-</p>
+## FASE 1: Pessoas conhecem pessoas
+<img src="./assets/people.gif" width="240" height="160" />
+
+Nesta fase iremos implementar uma simulação de um sistema de filas para compra de ingressos de eventos. Para isso seu programa precisará de várias instâncias de uma estrutura de dados conhecida como <span class="flato">fila brasileira</span>. 
 
 <div>
   <h2>
