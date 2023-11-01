@@ -24,28 +24,28 @@ Uma ```fila brasileira``` é uma generalização de uma fila comum, com algumas 
 
 A entrada de dados será a partir da leitura de um arquivo texto que poderá conter em cada linha os seguintes comandos:
 
-> **```criaFila:```** ```ID [ ID2, ID3, ... ]``` 
+>#### **```criaFila:```** ```ID [ ID2, ID3, ... ]``` 
 > cria uma ou mais filas (ou guiches) de atendimento associando com seu respectivo  identificador ID.
 
-> **```atendeFila:```** ```ID [ ID2, ID3, ... ]``` 
+>#### **```atendeFila:```** ```ID [ ID2, ID3, ... ]``` 
 > atende uma ou mais filas (ou guiches) associado por seu respectivo identificador ID. Ao atender uma fila, o primeiro será removido.
 
-> **```chegou:```** ```nome [ nome2, nome3, ... ]``` 
+>#### **```chegou:```** ```nome [ nome2, nome3, ... ]``` 
 > uma ou mais pessoas associadas por seu respectivo identificador (nome, nome2, nome3,...) chegam e devem ser adicionadas em alguma fila existente. 
 
-> **```desiste:```** ```nome [ nome2, nome3, ... ]``` 
+>#### **```desiste:```** ```nome [ nome2, nome3, ... ]``` 
 > uma ou mais pessoas associadas por seu respectivo identificador (nome,nome2,nome3,...) desistem de esperar e vão embora.
 
-> **```imprime:```**
+>#### **```imprime:```**
 > uma ou mais pessoas associadas por seu respectivo identificador (nome,nome2,nome3,...) desistem de esperar e vão embora.
 > imprime a situação atual de todas as filas. A saída deverá respeitar a seguinte formatação:
 > 1. Uma fila por linha
 > 2. Cada linha deve começar com símbolo hash '#' e seu identificador, seguido pelos nomes das pessoas entre [ ] separados por espaços.
 > 
-> Exemplo
-> 
->   #Guiche1 [ Guga, Maria ]
->   #Guiche2 [ Ivo, Fabio, Manuel, Alface ]
+>**Exemplo:**
+>
+>     #Guiche1 [ Guga, Maria ]
+>     #Guiche2 [ Ivo, Fabio, Manuel, Alface ]
  
 ## Sobre a entrega
 
