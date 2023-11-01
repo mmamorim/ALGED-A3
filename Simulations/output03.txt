@@ -1,0 +1,6 @@
+#Fila1 [ PaulStanley ]
+#Fila2 [ Brian ]
+#Fila3 [ Freddie, Ringo ]
+#Fila1 [ Paul, George, Adrian ]
+#Fila2 [ Brian, Deacon, John ]
+#Fila3 [ Freddie, Steve, Vinnie ]

@@ -1,0 +1,6 @@
+[Olga] existe!
+[Julia] NÃO existe!
+[Julia] NÃO conhece [Alface]
+[Fabio] conhece [Ivo]
+#Guiche1 [ Alface, Bia, Guga ]
+#Guiche2 [ Ivo, Fabio, Manuel ]

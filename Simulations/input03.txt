@@ -1,0 +1,13 @@
+grupo: Paul John George Ringo
+grupo: Bruce Steve Nicko Dave Adrian
+grupo: Freddie Brian Deacon Taylor
+grupo: GeneSimmons PaulStanley Vinnie Eric
+criaFila: Fila1
+criaFila: Fila2
+criaFila: Fila3
+chegou: Freddie Brian PaulStanley Ringo
+imprime:
+atendeFila: Fila1
+desiste: Ringo
+chegou: Paul Steve John George Deacon Vinnie Adrian
+imprime:
