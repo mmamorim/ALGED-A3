@@ -1,4 +1,4 @@
-import engine from "./engine.js"
+import engine from "./engine_o.js"
 
 let btnSimul = document.getElementById("btn-simul")
 let textInput = document.getElementById("txtInput")
