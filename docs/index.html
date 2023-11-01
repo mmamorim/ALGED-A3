@@ -2,16 +2,38 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="icon" type="image/svg+xml" href="./icon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/fonts.css">
+    <link rel="stylesheet" href="./src/ptail.css">
     <title>App</title>
-    <script type="module" crossorigin src="/assets/index-8ee729fd.js"></script>
-    <link rel="stylesheet" href="/assets/index-49912c75.css">
   </head>
   <body>
-    <div class="fnunito fs-26pt border m-1 p-2 rounded bg-gray-200">
-      App
+    <div class="m-2">
+      <h2 class="fnunito m-1">
+        Simulação A3
+      </h2>
+      <hr class="">
     </div>
-    
+    <div class="flex items-center justify-center gap-2">
+      <div class="">
+        <button id="btn-simul">Simular</button>
+      </div>
+    </div>
+    <div class="flex items-center justify-center gap-2">
+      <div class="">
+        <div class="fnunito text-lg">
+          Entrada
+        </div>
+        <textarea id="txtInput" rows="20" cols="50"></textarea>
+      </div>
+      <div class="">
+        <div class="fnunito text-lg">
+          Saída
+        </div>
+        <textarea id="txtOutput" rows="20" cols="50"></textarea>
+      </div>
+    </div>
+    <script type="module" src="./src/main.js"></script>
   </body>
 </html>
