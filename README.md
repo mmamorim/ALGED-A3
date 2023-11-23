@@ -19,7 +19,7 @@ Esta estrutura de dados armazena grupos de pessoas que se conhecem (amigos, fami
 A entrada de dados será a partir da leitura de um arquivo texto que poderá conter em cada linha os seguintes comandos:
 
 >#### **```grupo:```** ```nome [ nome1, nome2, ... ]``` 
-> cria um grupo de pessoas associadas por seu respectivo identificador (nome, nome1, nome2, ...) que se conhecem.
+> cria um grupo de pessoas associadas por seu respectivo identificador (nome, nome1, nome2, ...) que se conhecem. **Obs:** Uma pessoa não poderá estar em dois grupos diferentes.
 
 >#### **```existe:```** ```nome``` 
 > verifica se um identificador **nome** foi encontrado em algum grupo, isto é, se uma pessoa existe. Para cada comando deste tipo, uma nova linha no texto de saída deverá ser criada, conforme o exemplo (entrada/saída). Na saída, o nome deve obrigatóriamente estar entre [ ].  
@@ -68,13 +68,33 @@ A entrada de dados será a partir da leitura de um arquivo texto que poderá con
 > atende uma ou mais filas (ou guiches) associado por seu respectivo identificador ID. Ao atender uma fila, o primeiro será removido.
 
 >#### **```chegou:```** ```nome [ nome1, nome2, ... ]``` 
-> uma ou mais pessoas associadas por seu respectivo identificador (nome, nome1, nome2,...) chegam e devem ser adicionadas em alguma fila existente. 
+> uma ou mais pessoas associadas por seu respectivo identificador (nome, nome1, nome2,...) chegam e devem ser adicionadas em alguma fila existente. A pessoa deve ser adicionada na fila onde a posição seja a melhor possível para ser atendida. Por exemplo, assumindo uma situação onde temos as seguintes filas:
+>```
+>#Guiche1 [ Guga, Maria, Otavio ]
+>#Guiche2 [ Ivo, Fabio, Manuel, Alface ]
+>```
+>e temos o seguinte comando: ```chegou: Bia```
+>
+>caso Bia não conheça nenhuma das pessoas nas filas, a inserção será no final da fila Guiche1 conforme abaixo:
+>```
+>#Guiche1 [ Guga, Maria, Otavio, Bia ]
+>#Guiche2 [ Ivo, Fabio, Manuel, Alface ]
+>```
+>caso Bia conheça o Ivo, a inserção será após Ivo na fila Guiche2 conforme abaixo:
+>```
+>#Guiche1 [ Guga, Maria, Otavio ]
+>#Guiche2 [ Ivo, Bia, Fabio, Manuel, Alface ]
+>```
+>caso Bia conheça o Ivo e Fabio a inserção será após o Fabio na fila Guiche2 conforme abaixo:
+>```
+>#Guiche1 [ Guga, Maria, Otavio ]
+>#Guiche2 [ Ivo, Fabio, Bia, Manuel, Alface ]
+>```
 
 >#### **```desiste:```** ```nome [ nome1, nome2, ... ]``` 
 > uma ou mais pessoas associadas por seu respectivo identificador (nome, nome1, nome2,...) desistem de esperar e vão embora.
 
 >#### **```imprime:```**
-> uma ou mais pessoas associadas por seu respectivo identificador (nome,nome2,nome3,...) desistem de esperar e vão embora.
 > imprime a situação atual de todas as filas. A saída deverá respeitar a seguinte formatação:
 > 1. Uma fila por linha
 > 2. Cada linha deve começar com símbolo hash '#' e seu identificador, seguido pelos nomes das pessoas entre [ ] separados por espaços.
